@@ -1,7 +1,13 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react'
 import Formulario from './componets/Formulario'
 
 function App() {
+
+  const [appointments, setAppointments] = useState([])
+
+  const addAppointment = appointment => {
+    setAppointments([...appointments, appointment])
+  }
 
   return (
 
@@ -12,7 +18,9 @@ function App() {
       <div className="conainer">
         <div className="row">
           <div className="one-half column">
-            <Formulario />
+            <Formulario 
+              addAppointment = {addAppointment}
+            />
           </div>
           <div className="one-half column"></div>
         </div>
