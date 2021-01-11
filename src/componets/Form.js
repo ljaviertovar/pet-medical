@@ -131,7 +131,7 @@ const Form = ({addAppointment}) => {
 
 }
 
-From.propTypes = {
+Form.propTypes = {
       addAppointment: PropTypes.func.isRequired
 }
 
