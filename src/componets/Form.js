@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
 
-const Formulario = ({addAppointment}) => {
+const Form = ({addAppointment}) => {
 
       // create state appointments
       const [appointment, setAppointment] = useState({
@@ -130,4 +130,6 @@ const Formulario = ({addAppointment}) => {
 
 }
 
-export default Formulario;
+
+
+export default Form;
