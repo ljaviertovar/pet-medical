@@ -14,6 +14,7 @@ function App() {
 
   // to perform certain operations when thr stage changes  
   useEffect(() => {
+    
   if(savedAppointments){
 
     localStorage.setItem('appointments', JSON.stringify(appointments))
