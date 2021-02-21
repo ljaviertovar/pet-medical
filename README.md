@@ -1,4 +1,4 @@
-# :syringe: Pet Medical :hospital:
+# :dog: Pet Medical :hospital:
 
 App to create medical appoinments for pets.
 
